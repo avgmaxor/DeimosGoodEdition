@@ -25,8 +25,8 @@ public class DiscordPresence {
         DiscordPresence.presence.startTimestamp = System.currentTimeMillis() / 1000L;
         DiscordPresence.presence.details = Minecraft.getMinecraft().currentScreen instanceof GuiMainMenu ? "In the main menu." : "Playing " + (Minecraft.getMinecraft().currentServerData != null ? (RPC.INSTANCE.showIP.getValue().booleanValue() ? "on " + Minecraft.getMinecraft().currentServerData.serverIP + "." : " multiplayer.") : " singleplayer.");
         DiscordPresence.presence.state = RPC.INSTANCE.state.getValue();
-        DiscordPresence.presence.largeImageKey = "phobos";
-        DiscordPresence.presence.largeImageText = "Phobos 1.9.0";
+        DiscordPresence.presence.largeImageKey = "Deimos";
+        DiscordPresence.presence.largeImageText = "Deimos 1.0";
         rpc.Discord_UpdatePresence(presence);
         thread = new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()) {
