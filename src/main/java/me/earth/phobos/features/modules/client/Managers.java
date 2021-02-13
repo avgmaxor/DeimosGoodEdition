@@ -13,7 +13,7 @@ public class Managers
     public Setting<Boolean> betterFrames = this.register(new Setting<Boolean>("BetterMaxFPS", false));
     public Setting<String> commandBracket = this.register(new Setting<String>("Bracket", "<"));
     public Setting<String> commandBracket2 = this.register(new Setting<String>("Bracket2", ">"));
-    public Setting<String> command = this.register(new Setting<String>("Command", "Phobos.eu"));
+    public Setting<String> command = this.register(new Setting<String>("Command", "Deimos.cc"));
     public Setting<Boolean> rainbowPrefix = this.register(new Setting<Boolean>("RainbowPrefix", false));
     public Setting<TextUtil.Color> bracketColor = this.register(new Setting<TextUtil.Color>("BColor", TextUtil.Color.BLUE));
     public Setting<TextUtil.Color> commandColor = this.register(new Setting<TextUtil.Color>("CColor", TextUtil.Color.BLUE));
