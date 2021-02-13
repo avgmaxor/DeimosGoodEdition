@@ -22,7 +22,7 @@ public class AutoLog
     private final Setting<Boolean> logout = this.register(new Setting<Boolean>("LogoutOff", true));
 
     public AutoLog() {
-        super("AutoLog", "Logs when in danger.", Module.Category.MISC, false, false, false);
+        super("AutoPussy", "Logs when in danger.", Module.Category.MISC, false, false, false);
         this.setInstance();
     }
 
