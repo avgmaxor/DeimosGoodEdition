@@ -167,7 +167,7 @@ public class Notifications
                 moduleNumber *= 10;
             }
             if (this.watermark.getValue().booleanValue()) {
-                TextComponentString textComponentString = new TextComponentString(Phobos.commandManager.getClientMessage() + " " + "\u00a7r" + "\u00a7c" + module.getDisplayName() + " disabled.");
+                TextComponentString textComponentString = new TextComponentString("[\u00A74Deimos.cc\u00A7f]" + " " + "\u00a7r" + "\u00a7c" + module.getDisplayName() + " disabled.");
                 Notifications.mc.ingameGUI.getChatGUI().printChatMessageWithOptionalDeletion(textComponentString, moduleNumber);
             } else {
                 TextComponentString textComponentString = new TextComponentString("\u00a7c" + module.getDisplayName() + " disabled.");
@@ -181,7 +181,7 @@ public class Notifications
                 moduleNumber *= 10;
             }
             if (this.watermark.getValue().booleanValue()) {
-                TextComponentString textComponentString = new TextComponentString(Phobos.commandManager.getClientMessage() + " " + "\u00a7r" + "\u00a7a" + module.getDisplayName() + " enabled.");
+                TextComponentString textComponentString = new TextComponentString("[\u00A74Deimos.cc\u00A7f]" + " " + "\u00a7r" + "\u00a7a" + module.getDisplayName() + " enabled.");
                 Notifications.mc.ingameGUI.getChatGUI().printChatMessageWithOptionalDeletion(textComponentString, moduleNumber);
             } else {
                 TextComponentString textComponentString = new TextComponentString("\u00a7a" + module.getDisplayName() + " enabled.");
