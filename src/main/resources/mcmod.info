@@ -1,20 +1,19 @@
 [
   {
     "modid": "earthhack",
-    "name": "3arthh4ck",
-    "description": "1.12.2 PvP Client",
-    "version": "1.9.0",
+    "name": "Deimos",
+    "description": "The BEST 1.12.2 PvP Client",
+    "version": "1.0",
     "mcversion": "1.12.2",
-    "logoFile": "phobos.png",
-    "url": "https://discordapp.com/invite/5ABu5UU",
+    "logoFile": "deimos.png",
+    "url": "https://discord.gg/Mvcj35aJe9",
     "updateUrl": "",
     "authorList": [
-      "3arthqu4ke",
-      "oHare",
-      "Crystallinqq",
-      "Megyn"
+      "Funk",
+      "rTe_",
+      "rpai",
+      "Perry"
     ],
     "screenshots": [],
     "dependencies": []
   }
-]
