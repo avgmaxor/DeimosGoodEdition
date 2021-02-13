@@ -83,7 +83,7 @@ public class ChatModifier
                     break;
                 }
                 case PHOBOS: {
-                    s = s + " \u23d0 \u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
+                    s = s + " \u23d0 \u24D3\u24D4\u24D8\u24DC\u24DE\u24E2";
                     break;
                 }
             }
