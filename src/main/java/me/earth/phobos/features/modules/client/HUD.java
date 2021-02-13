@@ -58,7 +58,7 @@ public class HUD
     private final Setting<Boolean> totems = this.register(new Setting<Boolean>("Totems", Boolean.valueOf(false), "TotemHUD"));
     private final Setting<Boolean> queue = this.register(new Setting<Boolean>("2b2tQueue", Boolean.valueOf(false), "Shows the 2b2t queue."));
     private final Setting<Greeter> greeter = this.register(new Setting<Greeter>("Greeter", Greeter.NONE, "Greets you."));
-    private final Setting<String> spoofGreeter = this.register(new Setting<Object>("GreeterName", "3arthqu4ke", v -> this.greeter.getValue() == Greeter.CUSTOM));
+    private final Setting<String> spoofGreeter = this.register(new Setting<Object>("GreeterName", "DunkHack.cc", v -> this.greeter.getValue() == Greeter.CUSTOM));
     private final Setting<LagNotify> lag = this.register(new Setting<LagNotify>("Lag", LagNotify.GRAY, "Lag Notifier"));
     private final Setting<Boolean> hitMarkers = this.register(new Setting<Boolean>("HitMarkers", true));
     private final Setting<Sound> sound = this.register(new Setting<Object>("Sound", Sound.NONE, v -> this.hitMarkers.getValue()));
@@ -204,11 +204,11 @@ public class HUD
         final String grayString = this.grayNess.getValue() ? "§7" : "";
         switch (this.watermark.getValue()) {
             case PHOBOS: {
-                this.renderer.drawString("Phobos" + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
+                this.renderer.drawString("Deimos.cc" + (this.modeVer.getValue() ? " v1.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
                 break;
             }
             case EARTH: {
-                this.renderer.drawString("3arthh4ck" + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
+                this.renderer.drawString("DunkHack" + (this.modeVer.getValue() ? " v1.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
                 break;
             }
             case CUSTOM: {
