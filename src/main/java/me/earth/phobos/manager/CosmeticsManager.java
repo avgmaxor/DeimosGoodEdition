@@ -19,8 +19,8 @@ public class CosmeticsManager
         this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.cloutGoggles}));
         this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.cloutGoggles}));
         this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.squidLauncher}));
-        this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.squidLauncher}));
-        this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.squidLauncher}));
+        this.cosmeticsUserMap.put("e95f8c71-47ee-4c1c-8690-f7600fbc5654", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.squidLauncher}));
+        this.cosmeticsUserMap.put("e95f8c71-47ee-4c1c-8690-f7600fbc5654", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.squidLauncher}));
         this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(Cosmetics.INSTANCE.glassesModel, Cosmetics.INSTANCE.squidLauncher));
         this.cosmeticsUserMap.put("0fb898f6-5614-48e9-aca1-f8b39ecfb7fe", Arrays.asList(new ModelBase[]{Cosmetics.INSTANCE.santaHatModel}));
     }
