@@ -9,7 +9,7 @@ import java.util.LinkedList;
 
 public class CommandManager
         extends Feature {
-    private String clientMessage = "[Phobos.cc]";
+    private String clientMessage = "[Deimos.cc]";
     private String prefix = ".";
     private final ArrayList<Command> commands = new ArrayList();
 
