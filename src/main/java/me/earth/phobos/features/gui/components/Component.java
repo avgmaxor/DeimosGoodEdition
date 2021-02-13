@@ -38,7 +38,7 @@ public class Component
         super(name);
         this.x = x;
         this.y = y;
-        this.width = 88;
+        this.width = 87;
         this.height = 18;
         this.open = open;
         this.setupItems();
@@ -68,7 +68,7 @@ public class Component
             RenderUtil.drawRect(this.x, (float) this.y - 1.5f, this.x + this.width, this.y + this.height - 6, color);
         }
         if (this.open) {
-            RenderUtil.drawRect(this.x, (float) this.y + 12.5f, this.x + this.width, (float) (this.y + this.height) + totalItemHeight, 0x77000000);
+            RenderUtil.drawRect(this.x, (float) this.y + 12.5f, this.x + this.width, (float) (this.y + this.height) + totalItemHeight, 0x77000050);
             if (ClickGui.getInstance().outline.getValue().booleanValue()) {
                 if (ClickGui.getInstance().rainbowRolling.getValue().booleanValue()) {
                     GlStateManager.disableTexture2D();
