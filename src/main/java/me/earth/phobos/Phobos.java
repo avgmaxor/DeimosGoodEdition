@@ -16,13 +16,13 @@ import java.io.IOException;
 @Mod(modid = "phobos", name = "Deimos", version = "1.9.0")
 public class Phobos {
     public static final String MODID = "phobos";
-    public static final String MODNAME = "Phobos";
-    public static final String MODVER = "1.9.0";
+    public static final String MODNAME = "Deimos";
+    public static final String MODVER = "1.0";
     public static final String NAME_UNICODE = "3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
     public static final String PHOBOS_UNICODE = "\u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
     public static final String CHAT_SUFFIX = " \u23d0 3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
     public static final String PHOBOS_SUFFIX = " \u23d0 \u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
-    public static final Logger LOGGER = LogManager.getLogger("3arthh4ck");
+    public static final Logger LOGGER = LogManager.getLogger("Deimos");
     public static ModuleManager moduleManager;
     public static SpeedManager speedManager;
     public static PositionManager positionManager;
@@ -99,11 +99,11 @@ public class Phobos {
             DiscordPresence.start();
         }
         cosmeticsManager = new CosmeticsManager();
-        LOGGER.info("3arthh4ck initialized!\n");
+        LOGGER.info("Deimos initialized!\n");
     }
 
     public static void unload(boolean unload) {
-        LOGGER.info("\n\nUnloading 3arthh4ck 1.9.0");
+        LOGGER.info("\n\nUnloading Deimos 1.0");
         if (unload) {
             reloadManager = new ReloadManager();
             reloadManager.init(commandManager != null ? commandManager.getPrefix() : ".");
@@ -131,7 +131,7 @@ public class Phobos {
         inventoryManager = null;
         notificationManager = null;
         safetyManager = null;
-        LOGGER.info("3arthh4ck unloaded!\n");
+        LOGGER.info("Deimos unloaded!\n");
     }
 
     public static void reload() {
@@ -157,16 +157,13 @@ public class Phobos {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        LOGGER.info("Certified hood classic");
-        LOGGER.info("Certified hood classic");        
-        LOGGER.info("Certified hood classic");       
-        LOGGER.info("Certified hood classic");
+        LOGGER.info("Perry on top");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         customMainScreen = new GuiCustomMainScreen();
-        Display.setTitle("Deimos  v.1.0");
+        Display.setTitle("Deimos - v1.0");
         Phobos.load();
     }
 }
