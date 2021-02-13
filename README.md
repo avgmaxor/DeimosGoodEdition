@@ -1,5 +1,5 @@
 # Deimos 
 
-if u break u buy perry konas
+if u break u buy funk AND perry konas
 
 
