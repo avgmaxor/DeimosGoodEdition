@@ -35,7 +35,6 @@
     "MixinMinecraft",
     "MixinModelBiped",
     "MixinNetHandlerPlayClient",
-    "MixinNettyCompressionDecoder",
     "MixinNetworkManager",
     "MixinPlayerControllerMP",
     "MixinRender",
