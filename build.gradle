@@ -24,7 +24,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'com.github.johnrengelman.shadow'
 
 version project.modVersion
-group project.modGroup //http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group project.modGroup //https://maven.apache.org/guides/mini/guide-naming-conventions.html
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {
