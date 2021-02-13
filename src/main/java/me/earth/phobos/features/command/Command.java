@@ -27,14 +27,14 @@ public abstract class Command
     }
 
     public static void sendMessage(String message, boolean notification) {
-        Command.sendSilentMessage(Phobos.commandManager.getClientMessage() + " " + "\u00a7r" + message);
+        Command.sendSilentMessage("[\u00A74Deimos\u00A7f]" + " " + "\u00a7r" + message);
         if (notification) {
             Phobos.notificationManager.addNotification(message, 3000L);
         }
     }
 
     public static void sendMessage(String message) {
-        Command.sendSilentMessage(Phobos.commandManager.getClientMessage() + " " + "\u00a7r" + message);
+        Command.sendSilentMessage("[\u00A74Deimos\u00A7f]" + " " + "\u00a7r" + message);
     }
 
     public static void sendSilentMessage(String message) {
