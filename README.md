@@ -1,7 +1,5 @@
-# CLEAN_Phobos_1.9.0-BUILDABLE-SRC
+# Deimos 
 
-Buildable src reconstructed from the clean Phobos 1.9.0 jar. Full buildable and functional, jar in releases is built from this clean src. 
+if u break u buy funk konas
 
-How to build
-Macos: ./gradlew build
-Windows gradlew build
+
