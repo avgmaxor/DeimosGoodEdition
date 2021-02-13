@@ -251,7 +251,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(NoDDoS.class), new Color(67, 191, 181));
         this.moduleColorMap.put(this.getModuleByClass(Blink.class), new Color(144, 184, 141));
         this.moduleColorMap.put(this.getModuleByClass(BlockTweaks.class), new Color(89, 223, 235));
-        this.moduleColorMap.put(this.getModuleByClass(EchestBP.class), new Color(255, 243, 30));
         this.moduleColorMap.put(this.getModuleByClass(FakePlayer.class), new Color(37, 192, 170));
         this.moduleColorMap.put(this.getModuleByClass(FastPlace.class), new Color(217, 118, 37));
         this.moduleColorMap.put(this.getModuleByClass(Freecam.class), new Color(206, 232, 128));
