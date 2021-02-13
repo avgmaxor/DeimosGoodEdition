@@ -451,11 +451,11 @@ public class HUD
                 break;
             }
             case CHRISTMAS: {
-                text = text + "Merry Christmas " + HUD.mc.player.getDisplayNameString() + " :^)";
+                text = text + "Merry Christmas Deimos User " + HUD.mc.player.getDisplayNameString() + " :^)";
                 break;
             }
             case LONG: {
-                text = text + "Welcome to Phobos.eu " + HUD.mc.player.getDisplayNameString() + " :^)";
+                text = text + "Welcome to Deimos.cc " + HUD.mc.player.getDisplayNameString() + " :^)";
                 break;
             }
             case CUSTOM: {
