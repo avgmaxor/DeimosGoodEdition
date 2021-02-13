@@ -157,16 +157,16 @@ public class Phobos {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        LOGGER.info("ohare is cute!!!");
-        LOGGER.info("faggot above - 3vt");
-        LOGGER.info("megyn wins again");
-        LOGGER.info("gtfo my logs - 3arth");
+        LOGGER.info("Certified hood classic");
+        LOGGER.info("Certified hood classic");        
+        LOGGER.info("Certified hood classic");       
+        LOGGER.info("Certified hood classic");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         customMainScreen = new GuiCustomMainScreen();
-        Display.setTitle("3arthh4ck - v.1.9.0");
+        Display.setTitle("Deimos  v.1.0");
         Phobos.load();
     }
 }
