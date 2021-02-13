@@ -119,7 +119,6 @@ public class ModuleManager
         this.modules.add(new NoHunger());
         this.modules.add(new Jesus());
         this.modules.add(new Scaffold());
-        this.modules.add(new EchestBP());
         this.modules.add(new TpsSync());
         this.modules.add(new MCP());
         this.modules.add(new TrueDurability());
