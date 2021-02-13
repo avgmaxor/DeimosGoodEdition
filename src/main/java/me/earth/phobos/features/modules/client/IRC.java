@@ -67,7 +67,7 @@ public class IRC
     private boolean pressed = false;
 
     public IRC() {
-        super("PhobosChat", "Phobos chat server", Module.Category.CLIENT, true, false, true);
+        super("DeimosChat", "Deimos chat server", Module.Category.CLIENT, true, false, true);
         INSTANCE = this;
     }
 
