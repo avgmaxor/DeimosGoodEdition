@@ -13,7 +13,7 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "phobos", name = "Phobos", version = "1.9.0")
+@Mod(modid = "phobos", name = "Deimos", version = "1.9.0")
 public class Phobos {
     public static final String MODID = "phobos";
     public static final String MODNAME = "Phobos";
@@ -57,7 +57,7 @@ public class Phobos {
     }
 
     public static void load() {
-        LOGGER.info("\n\nLoading 3arthh4ck 1.9.0");
+        LOGGER.info("\n\nLoading Deimos 1.0");
         unloaded = false;
         if (reloadManager != null) {
             reloadManager.unload();
