@@ -42,7 +42,7 @@ public class AutoGG
     private boolean cooldown;
 
     public AutoGG() {
-        super("AutoGG", "Automatically GGs", Module.Category.MISC, true, false, false);
+        super("AutoEZ", "Automatically GGs", Module.Category.MISC, true, false, false);
         File file = new File(path);
         if (!file.exists()) {
             try {
