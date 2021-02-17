@@ -19,7 +19,7 @@ public class Companion
 
     @Override
     public void onEnable() {
-        this.narrator.say("Hello and welcome to phobos");
+        this.narrator.say("Hello and welcome to deimos");
     }
 
     @Override
