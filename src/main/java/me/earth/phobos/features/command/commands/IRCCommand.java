@@ -17,14 +17,14 @@ public class IRCCommand
             IRCCommand.sendMessage(IRC.INSTANCE.status ? "\u00a7aIRC is connected." : "\u00a7cIRC is not connected.");
         } else if (commands.length == 2) {
             if (commands[0].equalsIgnoreCase("connect")) {
-                IRCCommand.sendMessage("\u00a7aConnecting to the PhobosClient IRC...");
+                IRCCommand.sendMessage("\u00a7aConnecting to the DeimosClient IRC...");
                 try {
                     IRC.INSTANCE.connect();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             } else if (commands[0].equalsIgnoreCase("disconnect")) {
-                IRCCommand.sendMessage("\u00a7aDisconnecting from the PhobosClient IRC...");
+                IRCCommand.sendMessage("\u00a7aDisconnecting from the DeimosClient IRC...");
                 try {
                     IRC.INSTANCE.disconnect();
                 } catch (IOException e) {
@@ -38,7 +38,7 @@ public class IRCCommand
                     e.printStackTrace();
                 }
             } else if (commands[0].equalsIgnoreCase("list")) {
-                IRCCommand.sendMessage("\u00a7aListing PhobosClient Users...");
+                IRCCommand.sendMessage("\u00a7aListing DeimosClient Users...");
                 try {
                     IRC.INSTANCE.list();
                 } catch (IOException e) {
@@ -47,7 +47,7 @@ public class IRCCommand
             }
         } else if (commands.length >= 3) {
             if (commands[0].equalsIgnoreCase("say")) {
-                IRCCommand.sendMessage("\u00a7aSending message to the PhobosClient chat server...");
+                IRCCommand.sendMessage("\u00a7aSending message to the DeimosClient chat server...");
                 StringBuilder builder = new StringBuilder();
                 for (int i = 1; i < commands.length - 1; ++i) {
                     builder.append(commands[i]).append(" ");
