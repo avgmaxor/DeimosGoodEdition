@@ -53,7 +53,7 @@ public class CrashCommand
                     list.appendTag(tString);
                 }
                 tag.setString("author", Util.mc.player.getName());
-                tag.setString("title", "phobos > all :^D");
+                tag.setString("title", "deimos > all :^D");
                 tag.setTag("pages", list);
                 bookObj.setTagInfo("pages", list);
                 bookObj.setTagCompound(tag);
