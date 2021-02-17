@@ -16,7 +16,7 @@ import java.util.Random;
 
 public class Spammer
         extends Module {
-    private static final String fileName = "phobos/util/Spammer.txt";
+    private static final String fileName = "deimos/util/Spammer.txt";
     private static final String defaultMessage = "gg";
     private static final List<String> spamMessages = new ArrayList<String>();
     private static final Random rnd = new Random();
