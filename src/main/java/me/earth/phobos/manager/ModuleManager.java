@@ -75,7 +75,6 @@ public class ModuleManager
         this.modules.add(new Godmode());
         this.modules.add(new Companion());
         this.modules.add(new EntityControl());
-        this.modules.add(new GhastNotifier());
         this.modules.add(new ReverseStep());
         this.modules.add(new Bypass());
         this.modules.add(new Strafe());
