@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 
 public class FileManager
         extends Feature {
-    private final Path base = this.getMkDirectory(this.getRoot(), "phobos");
+    private final Path base = this.getMkDirectory(this.getRoot(), "deimos");
     private final Path config = this.getMkDirectory(this.base, "config");
     private final Path notebot = this.getMkDirectory(this.base, "notebot");
 
