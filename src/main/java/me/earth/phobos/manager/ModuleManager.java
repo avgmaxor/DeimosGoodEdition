@@ -43,7 +43,6 @@ public class ModuleManager
         this.modules.add(new AntiTrap());
         this.modules.add(new BedBomb());
         this.modules.add(new ArmorMessage());
-        this.modules.add(new Crasher());
         this.modules.add(new Auto32k());
         this.modules.add(new AntiCrystal());
         this.modules.add(new AnvilAura());
