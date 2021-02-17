@@ -68,7 +68,7 @@ public class Component
             RenderUtil.drawRect(this.x, (float) this.y - 1.5f, this.x + this.width, this.y + this.height - 6, color);
         }
         if (this.open) {
-            RenderUtil.drawRect(this.x, (float) this.y + 12.5f, this.x + this.width, (float) (this.y + this.height) + totalItemHeight, 0x77000050);
+            RenderUtil.drawRect(this.x, (float) this.y + 12.5f, this.x + this.width, (float) (this.y + this.height) + totalItemHeight, 0xaa000050);
             if (ClickGui.getInstance().outline.getValue().booleanValue()) {
                 if (ClickGui.getInstance().rainbowRolling.getValue().booleanValue()) {
                     GlStateManager.disableTexture2D();
