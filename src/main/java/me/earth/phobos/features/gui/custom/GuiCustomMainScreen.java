@@ -14,7 +14,7 @@ import java.awt.image.BufferedImage;
 public class GuiCustomMainScreen
         extends GuiScreen {
     private final String backgroundURL = "https://i.imgur.com/WSjz3Ft.jpg";
-    private final ResourceLocation resourceLocation = new ResourceLocation("textures/background.png");
+    private final ResourceLocation resourceLocation = new ResourceLocation("textures/background.jpg");
     private int y;
     private int x;
     private int singleplayerWidth;
