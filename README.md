@@ -1,5 +1,5 @@
 # Deimos 
 
-if u break u buy who? AND perry (CHAD) konas
+if u break u buy funk(hot) AND perry (CHAD) konas
 
 
