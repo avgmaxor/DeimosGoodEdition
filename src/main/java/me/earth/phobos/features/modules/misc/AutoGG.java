@@ -27,7 +27,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class AutoGG
         extends Module {
-    private static final String path = "phobos/autogg.txt";
+    private static final String path = "deimos/autogg.txt";
     private final Setting<Boolean> onOwnDeath = this.register(new Setting<Boolean>("OwnDeath", false));
     private final Setting<Boolean> greentext = this.register(new Setting<Boolean>("Greentext", false));
     private final Setting<Boolean> loadFiles = this.register(new Setting<Boolean>("LoadFiles", false));
