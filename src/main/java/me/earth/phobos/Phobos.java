@@ -157,7 +157,7 @@ public class Phobos {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        LOGGER.info("Perry on top");
+        LOGGER.info("Furryware.cc on top kids that hate furries cope harder");
     }
 
     @Mod.EventHandler
