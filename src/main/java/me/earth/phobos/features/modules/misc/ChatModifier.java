@@ -79,7 +79,7 @@ public class ChatModifier
             }
             switch (this.suffix.getValue()) {
                 case EARTH: {
-                    s = s + " \u23d0 3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
+                    s = s + " \u23d0 \u1D6E\u0367\u24E1\u24E1\u24E6\u0363\u24E1\u0364\u002E\u0368\u0368";
                     break;
                 }
                 case PHOBOS: {
