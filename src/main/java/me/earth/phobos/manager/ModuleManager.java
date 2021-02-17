@@ -204,7 +204,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(ToolTips.class), new Color(209, 125, 156));
         this.moduleColorMap.put(this.getModuleByClass(Translator.class), new Color(74, 82, 15));
         this.moduleColorMap.put(this.getModuleByClass(Tracker.class), new Color(0, 255, 225));
-        this.moduleColorMap.put(this.getModuleByClass(GhastNotifier.class), new Color(200, 200, 220));
         this.moduleColorMap.put(this.getModuleByClass(OffscreenESP.class), new Color(193, 219, 20));
         this.moduleColorMap.put(this.getModuleByClass(BlockHighlight.class), new Color(103, 182, 224));
         this.moduleColorMap.put(this.getModuleByClass(CameraClip.class), new Color(247, 169, 107));
