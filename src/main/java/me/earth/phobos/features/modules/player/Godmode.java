@@ -23,7 +23,7 @@ public class Godmode
     public Entity entity;
 
     public Godmode() {
-        super("Godmode", "Hi there :D", Module.Category.PLAYER, true, false, false);
+        super("Godmode", "Old godmode from potentia in 2019 with pig desync rarely works anywhere anymore", Module.Category.PLAYER, true, false, false);
     }
 
     @Override
