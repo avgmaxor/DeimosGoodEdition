@@ -29,7 +29,7 @@ public class FriendCommand
             switch (commands[0]) {
                 case "reset": {
                     Phobos.friendManager.onLoad();
-                    FriendCommand.sendMessage("Friends got reset.");
+                    FriendCommand.sendMessage("Friends got reset. Loser");
                     break;
                 }
                 default: {
