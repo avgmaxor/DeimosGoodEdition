@@ -22,7 +22,7 @@ public class AutoLog
     private final Setting<Boolean> logout = this.register(new Setting<Boolean>("LogoutOff", true));
 
     public AutoLog() {
-        super("AutoAnal", "Logs when in danger from being raped because ur gay and you know it.", Module.Category.MISC, false, false, false);
+        super("AutoAnal", "Logs when in danger from being raped by perry because ur gay and you know you want it but wont accept.", Module.Category.MISC, false, false, false);
         this.setInstance();
     }
 
