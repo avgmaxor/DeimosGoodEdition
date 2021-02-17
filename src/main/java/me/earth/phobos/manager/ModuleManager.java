@@ -166,7 +166,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(AutoTrap.class), new Color(193, 49, 244));
         this.moduleColorMap.put(this.getModuleByClass(BedBomb.class), new Color(185, 80, 195));
         this.moduleColorMap.put(this.getModuleByClass(BowSpam.class), new Color(204, 191, 153));
-        this.moduleColorMap.put(this.getModuleByClass(Crasher.class), new Color(208, 66, 9));
         this.moduleColorMap.put(this.getModuleByClass(Criticals.class), new Color(204, 151, 184));
         this.moduleColorMap.put(this.getModuleByClass(HoleFiller.class), new Color(166, 55, 110));
         this.moduleColorMap.put(this.getModuleByClass(Killaura.class), new Color(255, 37, 0));
