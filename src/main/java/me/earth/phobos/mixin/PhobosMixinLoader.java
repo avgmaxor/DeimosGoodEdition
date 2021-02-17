@@ -12,7 +12,7 @@ implements IFMLLoadingPlugin {
     private static boolean isObfuscatedEnvironment = false;
 
     public PhobosMixinLoader() {
-        Phobos.LOGGER.info("Phobos mixins initialized");
+        Phobos.LOGGER.info("Deimos mixins initialized");
         MixinBootstrap.init();
         Mixins.addConfiguration("mixins.phobos.json");
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("searge");
