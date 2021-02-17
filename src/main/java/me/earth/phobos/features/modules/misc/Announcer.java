@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Announcer
         extends Module {
-    private static final String directory = "phobos/announcer/";
+    private static final String directory = "deimos/announcer/";
     private final Setting<Boolean> join = this.register(new Setting<Boolean>("Join", true));
     private final Setting<Boolean> leave = this.register(new Setting<Boolean>("Leave", true));
     private final Setting<Boolean> eat = this.register(new Setting<Boolean>("Eat", true));
