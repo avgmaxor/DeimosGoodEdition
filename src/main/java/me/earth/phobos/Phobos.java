@@ -13,9 +13,9 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "phobos", name = "Deimos", version = "1.0")
+@Mod(modid = "deimos", name = "Deimos", version = "1.0")
 public class Phobos {
-    public static final String MODID = "phobos";
+    public static final String MODID = "deimos";
     public static final String MODNAME = "Deimos";
     public static final String MODVER = "1.0";
     public static final String NAME_UNICODE = "3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
