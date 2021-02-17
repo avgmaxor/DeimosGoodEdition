@@ -40,7 +40,7 @@ public class Component
         this.y = y;
         this.width = 87;
         this.height = 18;
-        this.open = open;
+        this.open = !open;
         this.setupItems();
     }
 
