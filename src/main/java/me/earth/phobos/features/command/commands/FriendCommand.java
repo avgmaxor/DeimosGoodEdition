@@ -16,7 +16,7 @@ public class FriendCommand
     public void execute(String[] commands) {
         if (commands.length == 1) {
             if (Phobos.friendManager.getFriends().isEmpty()) {
-                FriendCommand.sendMessage("You currently dont have any friends added. You are prob like perry and a gay furry");
+                FriendCommand.sendMessage("You currently dont have any friends added. You are prob like perry and a gay furry.");
             } else {
                 FriendCommand.sendMessage("Friends: ");
                 for (Map.Entry<String, UUID> entry : Phobos.friendManager.getFriends().entrySet()) {
@@ -29,7 +29,7 @@ public class FriendCommand
             switch (commands[0]) {
                 case "reset": {
                     Phobos.friendManager.onLoad();
-                    FriendCommand.sendMessage("Friends got reset. Loser");
+                    FriendCommand.sendMessage("Friends got reset. Prob cause you admitted ur a gay furry like perry and everyone disliked you then.");
                     break;
                 }
                 default: {
