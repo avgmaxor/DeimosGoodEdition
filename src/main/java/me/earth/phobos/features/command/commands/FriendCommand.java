@@ -16,7 +16,7 @@ public class FriendCommand
     public void execute(String[] commands) {
         if (commands.length == 1) {
             if (Phobos.friendManager.getFriends().isEmpty()) {
-                FriendCommand.sendMessage("You currently dont have any friends added.");
+                FriendCommand.sendMessage("You currently dont have any friends added. You are prob like perry and a gay furry");
             } else {
                 FriendCommand.sendMessage("Friends: ");
                 for (Map.Entry<String, UUID> entry : Phobos.friendManager.getFriends().entrySet()) {
