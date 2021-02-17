@@ -148,7 +148,7 @@ public class Phobos {
             }
             eventManager.onUnload();
             moduleManager.onUnload();
-            configManager.saveConfig(Phobos.configManager.config.replaceFirst("phobos/", ""));
+            configManager.saveConfig(Phobos.configManager.config.replaceFirst("deimos/", ""));
             moduleManager.onUnloadPost();
             timerManager.unload();
             unloaded = true;
