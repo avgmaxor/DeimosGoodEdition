@@ -21,7 +21,7 @@ public class MCP
     private boolean clicked = false;
 
     public MCP() {
-        super("MCP", "Throws a pearl", Module.Category.PLAYER, false, false, false);
+        super("MCP", "Throws a pearl when middle clicking", Module.Category.PLAYER, false, false, false);
     }
 
     @Override
