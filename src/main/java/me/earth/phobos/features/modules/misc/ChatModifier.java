@@ -78,8 +78,8 @@ public class ChatModifier
                 return;
             }
             switch (this.suffix.getValue()) {
-                case FURRY: {
-                    s = s + " \u23d0 \u1D6E\u0367\u24E1\u24E1\u24E6\u0363\u24E1\u0364\u002E\u0368\u0368";
+                case EARTH: {
+                    s = s + " \u23d0 ꜰᴜʀʀሃᴡᴀʀᴇ.ᴄᴄ";
                     break;
                 }
                 case PHOBOS: {
@@ -140,7 +140,7 @@ public class ChatModifier
     public enum Suffix {
         NONE,
         PHOBOS,
-        FURRY
+        EARTH
 
     }
 }
