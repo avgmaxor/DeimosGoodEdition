@@ -82,7 +82,7 @@ public class ChatModifier
                     s = s + " \u23d0 \u1D6E\u0367\u24E1\u24E1\u24E6\u0363\u24E1\u0364\u002E\u0368\u0368;
                     break;
                 }
-                case PHOBOS: {
+                case DEIMOS: {
                     s = s + " \u23d0 \u24D3\u24D4\u24D8\u24DC\u24DE\u24E2";
                     break;
                 }
@@ -139,7 +139,7 @@ public class ChatModifier
 
     public enum Suffix {
         NONE,
-        PHOBOS,
+        DEIMOS,
         EARTH
 
     }
