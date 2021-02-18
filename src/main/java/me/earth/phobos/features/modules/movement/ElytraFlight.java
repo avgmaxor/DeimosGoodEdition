@@ -27,9 +27,9 @@ public class ElytraFlight
     private final Timer bypassTimer = new Timer();
     public Setting<Mode> mode = this.register(new Setting<Mode>("Mode", Mode.FLY));
     public Setting<Integer> devMode = this.register(new Setting<Object>("Type", 2, 1, 3, v -> this.mode.getValue() == Mode.BYPASS || this.mode.getValue() == Mode.BETTER, "EventMode"));
-    public Setting<Float> speed = this.register(new Setting<Object>("Speed", Float.valueOf(1.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), v -> this.mode.getValue() != Mode.FLY && this.mode.getValue() != Mode.BOOST && this.mode.getValue() != Mode.BETTER && this.mode.getValue() != Mode.OHARE, "The Speed."));
-    public Setting<Float> vSpeed = this.register(new Setting<Object>("VSpeed", Float.valueOf(0.3f), Float.valueOf(0.0f), Float.valueOf(10.0f), v -> this.mode.getValue() == Mode.BETTER || this.mode.getValue() == Mode.OHARE, "Vertical Speed"));
-    public Setting<Float> hSpeed = this.register(new Setting<Object>("HSpeed", Float.valueOf(1.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), v -> this.mode.getValue() == Mode.BETTER || this.mode.getValue() == Mode.OHARE, "Horizontal Speed"));
+    public Setting<Float> speed = this.register(new Setting<Object>("Speed", Float.valueOf(1.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), v -> this.mode.getValue() != Mode.FLY && this.mode.getValue() != Mode.BOOST && this.mode.getValue() != Mode.BETTER && this.mode.getValue() != Mode.DUNK, "The Speed."));
+    public Setting<Float> vSpeed = this.register(new Setting<Object>("VSpeed", Float.valueOf(0.3f), Float.valueOf(0.0f), Float.valueOf(10.0f), v -> this.mode.getValue() == Mode.BETTER || this.mode.getValue() == Mode.DUNK, "Vertical Speed"));
+    public Setting<Float> hSpeed = this.register(new Setting<Object>("HSpeed", Float.valueOf(1.0f), Float.valueOf(0.0f), Float.valueOf(10.0f), v -> this.mode.getValue() == Mode.BETTER || this.mode.getValue() == Mode.DUNK, "Horizontal Speed"));
     public Setting<Float> glide = this.register(new Setting<Object>("Glide", Float.valueOf(1.0E-4f), Float.valueOf(0.0f), Float.valueOf(0.2f), v -> this.mode.getValue() == Mode.BETTER, "Glide Speed"));
     public Setting<Float> tooBeeSpeed = this.register(new Setting<Object>("TooBeeSpeed", Float.valueOf(1.8000001f), Float.valueOf(1.0f), Float.valueOf(2.0f), v -> this.mode.getValue() == Mode.TOOBEE, "Speed for flight on 2b2t"));
     public Setting<Boolean> autoStart = this.register(new Setting<Boolean>("AutoStart", true));
