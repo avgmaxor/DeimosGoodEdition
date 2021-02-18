@@ -102,8 +102,8 @@ public class ConfigManager
 
     public void loadConfig(String name) {
         this.loadingConfig = true;
-        final List<File> files = Arrays.stream(Objects.requireNonNull(new File("phobos").listFiles())).filter(File::isDirectory).collect(Collectors.toList());
-        this.config = files.contains(new File("phobos/" + name + "/")) ? "phobos/" + name + "/" : "phobos/config/";
+        final List<File> files = Arrays.stream(Objects.requireNonNull(new File("deimos").listFiles())).filter(File::isDirectory).collect(Collectors.toList());
+        this.config = files.contains(new File("deimos/" + name + "/")) ? "deimos/" + name + "/" : "deimos/config/";
         Phobos.friendManager.onLoad();
         for (Feature feature : this.features) {
             try {
@@ -118,7 +118,7 @@ public class ConfigManager
 
     public void saveConfig(String name) {
         this.savingConfig = true;
-        this.config = "phobos/" + name + "/";
+        this.config = "deimos/" + name + "/";
         File path = new File(this.config);
         if (!path.exists()) {
             path.mkdir();
