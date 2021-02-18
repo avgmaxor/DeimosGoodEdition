@@ -115,7 +115,7 @@ public class ElytraFlight
 
     @SubscribeEvent
     public void onMove(MoveEvent event) {
-        if (this.mode.getValue() == Mode.OHARE) {
+        if (this.mode.getValue() == Mode.DUNK) {
             ItemStack itemstack = ElytraFlight.mc.player.getItemStackFromSlot(EntityEquipmentSlot.CHEST);
             if (itemstack.getItem() == Items.ELYTRA && ItemElytra.isUsable(itemstack) && ElytraFlight.mc.player.isElytraFlying()) {
                 event.setY(ElytraFlight.mc.gameSettings.keyBindJump.isKeyDown() ? (double) this.vSpeed.getValue().floatValue() : (ElytraFlight.mc.gameSettings.keyBindSneak.isKeyDown() ? (double) (-this.vSpeed.getValue().floatValue()) : 0.0));
