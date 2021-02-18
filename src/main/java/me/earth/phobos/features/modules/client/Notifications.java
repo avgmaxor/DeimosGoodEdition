@@ -21,7 +21,7 @@ import java.util.List;
 
 public class Notifications
         extends Module {
-    private static final String fileName = "phobos/util/ModuleMessage_List.txt";
+    private static final String fileName = "deimos/util/ModuleMessage_List.txt";
     private static final List<String> modules = new ArrayList<String>();
     private static Notifications INSTANCE = new Notifications();
     private final Timer timer = new Timer();
