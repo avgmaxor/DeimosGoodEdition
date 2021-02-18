@@ -44,7 +44,7 @@ public class ElytraFlight
     private Double posZ;
 
     public ElytraFlight() {
-        super("ElytraFlight", "Makes Elytra Flight better.", Module.Category.MOVEMENT, true, false, false);
+        super("ElytraFly", "Makes Elytra Flight better.", Module.Category.MOVEMENT, true, false, false);
         this.setInstance();
     }
 
@@ -486,7 +486,7 @@ public class ElytraFlight
         FLY,
         BYPASS,
         BETTER,
-        OHARE,
+        DUNK,
         TOOBEE,
         TOOBEEBYPASS
 
