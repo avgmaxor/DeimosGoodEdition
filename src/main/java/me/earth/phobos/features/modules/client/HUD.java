@@ -212,7 +212,7 @@ public class HUD
                 break;
             }
             case CUSTOM: {
-                this.renderer.drawString(this.customWatermark.getValue() + (this.modeVer.getValue() ? " v1.9.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
+                this.renderer.drawString(this.customWatermark.getValue() + (this.modeVer.getValue() ? " v1.0" : ""), 2.0f, 2.0f, (this.rolling.getValue() && this.rainbow.getValue()) ? this.colorMap.get(2) : this.color, true);
                 break;
             }
         }
