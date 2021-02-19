@@ -131,7 +131,9 @@ public class HoleFiller
         }
         if (this.auto.getValue().booleanValue()) {
             if(AutoCrystal.target.isAirBorne){
-                this.doHoleFill();
+                if(this.enabled){
+                    this.doHoleFill();                  
+                }
             }
         }
         Phobos.holeManager.update();
