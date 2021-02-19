@@ -56,6 +56,7 @@ public class HoleFiller
     private final Setting<Double> smartRange = this.register(new Setting<Object>("SmartRange", Double.valueOf(6.0), Double.valueOf(0.0), Double.valueOf(10.0), v -> this.placeMode.getValue() == PlaceMode.SMART));
     public Setting<Bind> obbyBind = this.register(new Setting<Bind>("Obsidian", new Bind(-1)));
     public Setting<Bind> webBind = this.register(new Setting<Bind>("Webs", new Bind(-1)));
+    public Setting<Boolean> auto = this.register(new Setting<Boolean>("Auto-HoleFill", false));
     public Mode currentMode = Mode.OBSIDIAN;
     private boolean accessedViaBind = false;
     private int targetSlot = -1;
@@ -126,6 +127,11 @@ public class HoleFiller
                 if (!module.didSwitchThisTick) {
                     module.doOffhand();
                 }
+            }
+        }
+        if (this.auto.getValue().booleanValue()) {
+            if(AutoCrystal.target.isAirBorne){
+                this.doHoleFill();
             }
         }
         Phobos.holeManager.update();
