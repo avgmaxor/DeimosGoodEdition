@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 public class ConfigManager
         implements Util {
     public ArrayList<Feature> features = new ArrayList();
-    public String config = "phobos/config/";
+    public String config = "deimos/config/";
     public boolean loadingConfig;
     public boolean savingConfig;
 
@@ -136,18 +136,18 @@ public class ConfigManager
     }
 
     public void saveCurrentConfig() {
-        File currentConfig = new File("phobos/currentconfig.txt");
+        File currentConfig = new File("deimos/currentconfig.txt");
         try {
             if (currentConfig.exists()) {
                 FileWriter writer = new FileWriter(currentConfig);
                 String tempConfig = this.config.replaceAll("/", "");
-                writer.write(tempConfig.replaceAll("phobos", ""));
+                writer.write(tempConfig.replaceAll("deimos", ""));
                 writer.close();
             } else {
                 currentConfig.createNewFile();
                 FileWriter writer = new FileWriter(currentConfig);
                 String tempConfig = this.config.replaceAll("/", "");
-                writer.write(tempConfig.replaceAll("phobos", ""));
+                writer.write(tempConfig.replaceAll("deimos", ""));
                 writer.close();
             }
         } catch (Exception e) {
@@ -156,7 +156,7 @@ public class ConfigManager
     }
 
     public String loadCurrentConfig() {
-        File currentConfig = new File("phobos/currentconfig.txt");
+        File currentConfig = new File("deimos/currentconfig.txt");
         String name = "config";
         try {
             if (currentConfig.exists()) {
