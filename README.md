@@ -1,3 +1,3 @@
 # Deimos 
 
-if u break u buy perry (CHAD) konas
+if u break u buy perry (CHAD Furry) konas
