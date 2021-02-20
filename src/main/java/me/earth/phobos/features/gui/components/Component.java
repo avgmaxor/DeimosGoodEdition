@@ -33,7 +33,7 @@ public class Component
     private int height;
     private boolean open;
     private boolean hidden = false;
-    public int primaryColor = rainbowUtil.getRainbow(4, 0.9f, 0.9f);
+
 
     public Component(String name, int x, int y, boolean open) {
         super(name);
@@ -57,6 +57,7 @@ public class Component
     }
 
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
+        int primaryColor = rainbowUtil.getRainbow(4, 0.9f, 0.9f);            
         this.drag(mouseX, mouseY);
         float totalItemHeight = this.open ? this.getTotalItemHeight() - 2.0f : 0.0f;
         int color = -7829368;
