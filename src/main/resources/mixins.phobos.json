@@ -1,5 +1,5 @@
 {
-  "required": true,
+  "required": false,
   "compatibilityLevel": "JAVA_8",
   "package": "me.earth.phobos.mixin.mixins",
   "refmap": "mixins.phobos.refmap.json",
