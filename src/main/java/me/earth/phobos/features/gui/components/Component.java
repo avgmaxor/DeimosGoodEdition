@@ -33,6 +33,7 @@ public class Component
     private int height;
     private boolean open;
     private boolean hidden = false;
+    public int primaryColor = rainbowUtil.getRainbow(4, 0.9f, 0.9f);
 
     public Component(String name, int x, int y, boolean open) {
         super(name);
