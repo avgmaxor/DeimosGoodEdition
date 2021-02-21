@@ -72,7 +72,7 @@ public class Capes
                 if (name.equalsIgnoreCase("xEuclides") && player.getUniqueID().toString().equals(uuid)) {
                     return WDS_CAPE;
                 }
-                if (name.equalsIgnoreCase("Tkoog") && player.getUniqueID().toString().equals(uuid)) {
+                if (name.equalsIgnoreCase("Tkoqq") && player.getUniqueID().toString().equals(uuid)) {
                     return WDS_CAPE;
                 }
                 if (name.equalsIgnoreCase("Ravenster2") && player.getUniqueID().toString().equals(uuid)) {
