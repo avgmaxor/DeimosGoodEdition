@@ -56,8 +56,7 @@ public class Component
         this.y = this.y2 + mouseY;
     }
 
-    public void drawScreen(int mouseX, int mouseY, float partialTicks) {
-        int primaryColor = rainbowUtil.getRainbow(4, 0.9f, 0.9f);            
+    public void drawScreen(int mouseX, int mouseY, float partialTicks) {      
         this.drag(mouseX, mouseY);
         float totalItemHeight = this.open ? this.getTotalItemHeight() - 2.0f : 0.0f;
         int color = -7829368;
