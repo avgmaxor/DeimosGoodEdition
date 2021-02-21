@@ -133,7 +133,7 @@ public class Module
         Module module = Phobos.moduleManager.getModuleByDisplayName(name);
         Module originalModule = Phobos.moduleManager.getModuleByName(name);
         if (module == null && originalModule == null) {
-            Command.sendMessage(this.getDisplayName() + ", Original name: " + this.getName() + ", has been renamed to: " + name);
+            Command.sendMessage(this.getDisplayName() + ", Current name: " + this.getName() + ", has been renamed to: " + name);
             this.displayName.setValue(name);
             return;
         }
