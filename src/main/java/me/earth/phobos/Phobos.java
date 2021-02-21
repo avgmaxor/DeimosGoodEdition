@@ -17,7 +17,7 @@ import java.io.IOException;
 public class Phobos {
     public static final String MODID = "deimos";
     public static final String MODNAME = "Deimos";
-    public static final String MODVER = "1.0";
+    public static final String MODVER = "1.1";
     public static final String NAME_UNICODE = "3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
     public static final String PHOBOS_UNICODE = "\u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
     public static final String CHAT_SUFFIX = " \u23d0 3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
