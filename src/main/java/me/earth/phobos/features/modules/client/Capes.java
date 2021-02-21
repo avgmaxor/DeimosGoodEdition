@@ -37,7 +37,6 @@ public class Capes
         UUIDs.put("Astolfo___", new String[]{"c30e8bb6-ae50-438a-81e4-07abf389f400"});
         UUIDs.put("_Risinq_", new String[]{"3ff7cd52-eff8-4e90-9490-d22df0aaa7b5"});
         UUIDs.put("Vunq", new String[]{"51803a6b-58d0-4c03-a132-7547020d6845"});
-        UUIDs.put("MackzJonesss", new String[]{"41a09a67-19fc-4cee-a2d5-517a80543490"});
         instance = this;
     }
 
@@ -94,9 +93,6 @@ public class Capes
                     return WDS_CAPE;
                 }
                 if (name.equalsIgnoreCase("Vunq") && player.getUniqueID().toString().equals(uuid)) {
-                    return WDS_CAPE;
-                }
-                if (name.equalsIgnoreCase("MackzJonesss") && player.getUniqueID().toString().equals(uuid)) {
                     return WDS_CAPE;
                 }
                 if (!name.equalsIgnoreCase("oHare") || !player.getUniqueID().toString().equals(uuid)) continue;
