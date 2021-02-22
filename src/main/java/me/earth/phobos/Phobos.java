@@ -13,7 +13,7 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "deimos", name = "Deimos", version = "1.0")
+@Mod(modid = "deimos", name = "Deimos", version = "1.1")
 public class Phobos {
     public static final String MODID = "deimos";
     public static final String MODNAME = "Deimos";
@@ -57,7 +57,7 @@ public class Phobos {
     }
 
     public static void load() {
-        LOGGER.info("\n\nLoading Deimos 1.0");
+        LOGGER.info("\n\nLoading Deimos 1.1");
         unloaded = false;
         if (reloadManager != null) {
             reloadManager.unload();
@@ -103,7 +103,7 @@ public class Phobos {
     }
 
     public static void unload(boolean unload) {
-        LOGGER.info("\n\nUnloading Deimos 1.0");
+        LOGGER.info("\n\nUnloading Deimos 1.1");
         if (unload) {
             reloadManager = new ReloadManager();
             reloadManager.init(commandManager != null ? commandManager.getPrefix() : ".");
@@ -163,7 +163,7 @@ public class Phobos {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         customMainScreen = new GuiCustomMainScreen();
-        Display.setTitle("Deimos - v1.0");
+        Display.setTitle("Deimos - v1.1");
         Phobos.load();
     }
 }
