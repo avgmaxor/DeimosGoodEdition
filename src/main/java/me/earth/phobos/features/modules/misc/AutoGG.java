@@ -132,7 +132,7 @@ public class AutoGG
         this.loadMessages();
         Random rand = new Random();
         if (this.messages.size() == 0) {
-            return "<player> is a noob hahaha deimos on tope";
+            return "/w <player> imagine dying kinda cwinge wds on top https://discord.gg/AQk4rAQbrX";
         }
         if (this.messages.size() == 1) {
             return this.messages.get(0);
