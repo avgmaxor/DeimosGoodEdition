@@ -13,7 +13,7 @@ public class Capes
     public static final ResourceLocation OHARE_CAPE = new ResourceLocation("textures/ohare.png");
     public static final ResourceLocation SQUID_CAPE = new ResourceLocation("textures/squidcape.png");
     public static final ResourceLocation DEIMOS_CAPE = new ResourceLocation("textures/capedeimos.png");
-    public static final ResourceLocation WDS_CAPE = new ResourceLocation("wds.png");
+    public static final ResourceLocation WDS_CAPE = new ResourceLocation("textures/wds.png");
     public static Map<String, String[]> UUIDs = new HashMap<String, String[]>();
     private static Capes instance;
 
