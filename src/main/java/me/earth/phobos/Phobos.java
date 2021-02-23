@@ -185,8 +185,8 @@ public class Phobos {
                 //If unverified, kill the program.
             if (!verified)
                Runtime.getRuntime().halt(0); 
-          }
-    
+               }
+            } catch (exception e) {
     }
 
     @Mod.EventHandler
