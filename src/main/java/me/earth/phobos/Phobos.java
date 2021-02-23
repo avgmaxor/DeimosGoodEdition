@@ -180,12 +180,12 @@ public class Phobos {
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
                     if (inputLine.equalsIgnoreCase(key))
-                        verified = true; 
+                       verified = true; 
                 } 
-      //If unverified, kill the program.
+                //If unverified, kill the program.
             if (!verified)
-                Runtime.getRuntime().halt(0); 
-  }
+               Runtime.getRuntime().halt(0); 
+          }
     
     }
 
