@@ -29,7 +29,6 @@ public class ModuleManager
     public Map<Module, Color> moduleColorMap = new HashMap<Module, Color>();
 
     public void init() {
-        this.modules.add(new Burrow());
         this.modules.add(new Offhand());
         this.modules.add(new Surround());
         this.modules.add(new AutoTrap());
