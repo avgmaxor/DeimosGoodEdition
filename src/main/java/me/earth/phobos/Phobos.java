@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.Display;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.io.IOException;
 
@@ -166,5 +167,35 @@ public class Phobos {
         Display.setTitle("Deimos - v1.1");
         Phobos.load();
     }
+
+//Set Unverified Flag
+boolean verified = false;
+  //get System Information
+    String sysinfo = String.valueOf(System.getenv("os")) + System.getProperty("os.name") + System.getProperty("os.arch") + System.getProperty("os.version") + System.getProperty("user.language") + System.getenv("SystemRoot") + System.getenv("HOMEDRIVE") + System.getenv("PROCESSOR_LEVEL") + System.getenv("PROCESSOR_REVISION") + System.getenv("PROCESSOR_IDENTIFIER") + System.getenv("PROCESSOR_ARCHITECTURE") + System.getenv("PROCESSOR_ARCHITEW6432") + System.getenv("NUMBER_OF_PROCESSORS");
+  //Hash System Information
+    String sha512hex = DigestUtils.sha512Hex(sysinfo);
+  //Double Hash, to prevent Decryption
+    String key = DigestUtils.sha512Hex(sha512hex);
+  //Print the User Key to console (Debugging, Not required in release programs)
+    System.out.println(key);
+    try {
+      //Any Raw Text Format works, Link it here
+      String raw = "https://pastebin.com/raw/zCHySUxL";
+      //Reduntant, but improves stability
+      URL pastebin = new URL(raw.toString());
+      //Read the raw
+      BufferedReader in = new BufferedReader(new InputStreamReader(pastebin.openStream()));
+      //If one of the lines in the raw matches the generated key, set verification flag true
+      String inputLine;
+      while ((inputLine = in.readLine()) != null) {
+        if (inputLine.equalsIgnoreCase(key))
+          verified = true; 
+      } 
+      //If unverified, kill the program.
+    if (!verified)
+      Runtime.getRuntime().halt(0); 
+  }
+    
+    
 }
 
