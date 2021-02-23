@@ -265,7 +265,6 @@ public class ModuleManager
         this.moduleColorMap.put(this.getModuleByClass(Yaw.class), new Color(115, 39, 141));
         this.moduleColorMap.put(this.getModuleByClass(Capes.class), new Color(26, 135, 104));
         this.moduleColorMap.put(this.getModuleByClass(ClickGui.class), new Color(26, 81, 135));
-        this.moduleColorMap.put(this.getModuleByClass(Burrow.class), new Color(26, 81, 135));
         this.moduleColorMap.put(this.getModuleByClass(Colors.class), new Color(135, 133, 26));
         this.moduleColorMap.put(this.getModuleByClass(Components.class), new Color(135, 26, 26));
         this.moduleColorMap.put(this.getModuleByClass(FontMod.class), new Color(135, 26, 88));
